@@ -168,16 +168,27 @@ section.best-seller {
 .about-us img {
    width: 960px;
    max-width: 100%;
+   box-shadow: 4px 4px 15px -1px rgba(0, 0, 0, 0.56);
+   border-radius: 20px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
 }
 
 .about-us h2 {
-   margin: 20px;
+   margin: 25px;
    font-size: 34px;
 }
 
+.about-us .sub  {
+   margin: 25px;
+   font-size: 20px;
+}
+
 .about-us p {
-   margin: 20px;
-   font-size: 19px;
+   margin: 25px;
+   font-size: 20px;
 }
 
 .about-us .penjelasan {
@@ -196,13 +207,15 @@ section.best-seller {
 }
 
 .our-team h2 {
-   margin-bottom: 20px;
+   margin-bottom: 25px;
    font-size: 34px;
 }
 
 .our-team .sub {
    margin-bottom: 40px;
-   font-size: 19px; 
+   margin-left: 20px;
+   margin-right: 20px;
+   font-size: 20px; 
 }
 
 .our-team .baris .tim {
@@ -214,6 +227,14 @@ section.best-seller {
 
 .our-team .baris .tim img {
    margin-bottom: 15px;
+   width: 100%;
+   aspect-ratio: 1/1;
+   box-shadow: 4px 4px 15px -1px rgba(0, 0, 0, 0.56);
+   border-radius: 20px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
 }
 
 .our-team .baris .tim p {
@@ -258,7 +279,14 @@ section.best-seller {
 }
 
 .review .profile img {
-   height: 80px;
+   width: 30%;
+   aspect-ratio: 1/1;
+   box-shadow: 4px 4px 15px -1px rgba(0, 0, 0, 0.56);
+   border-radius: 20px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
    margin-right: 30px;
 }
 

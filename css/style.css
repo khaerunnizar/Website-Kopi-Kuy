@@ -96,13 +96,13 @@ header .kiri h1 {
 }
 
 header .kiri p.tagline {
-   margin-bottom: 20px;
-   font-size: 20px;
+   margin-bottom: 30px;
+   font-size: 25px;
 }
 
 header .kiri .cta p {
-   font-size: 16px;
-   margin-bottom: 20px;
+   font-size: 20px;
+   margin-bottom: 10px;
 }
 
 header .kiri .cta a {
@@ -143,7 +143,12 @@ section.best-seller {
 .best-seller .produk img {
    width: 100%;
    aspect-ratio: 1/1;
+   box-shadow: 4px 4px 15px -1px rgba(0, 0, 0, 0.56);
    border-radius: 20px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
 }
 
 /* About Us*/ 
